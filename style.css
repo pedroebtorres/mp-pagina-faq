@@ -1,0 +1,39 @@
+body {
+    background-color: lch(96 3.5 248 / 1);
+}
+
+h1{
+    text-align: center;
+}
+
+.container {
+    background-color: lch(100 0 0 / 1);
+    border-radius: 10px;
+    padding: 50px;
+    margin: 20vh;
+    width: 100%;
+}
+
+.content {
+    box-shadow: 0px 1px 0px lch(83 25 260), inset 3px 0px 0px lch(83 25 260);
+    border-radius: 20px 18px;
+    margin: 15px;
+    padding: 20px;
+}
+
+#faq {
+    height: 241px;
+    margin-right: 10px;
+}
+
+.inside-container {
+    flex-wrap: wrap;
+    flex-grow: 1; 
+    align-items: flex-start; 
+}
+
+.vector {
+    width: 18.64px;
+    height: 1.5vh;
+    align-self:flex-end;
+}
