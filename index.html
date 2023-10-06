@@ -5,50 +5,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FAQ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Perguntas frequentes</h1>
-    <div>
-        <h3 onClick="showContent(0)">Como faço para redefinir minha senha?</h3>
-        <template>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus consectetur fuga beatae dolorum quidem?
-            </p>
-        </template>
-    </div>
-    <div>
-        <h3 onClick="showContent(1)">Quais são os métodos de pagamento aceitos?</h3>
-        <template>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus consectetur fuga beatae dolorum quidem?
-                Quas fugit tempore assumenda inventore quam delectus
-                quibusdam quos.
-            </p>
-        </template>
-    </div>
-    <div>
-        <h3 onClick="showContent(2)">Qual é a política de reembolso?</h3>
-        <template>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus consectetur fuga beatae dolorum quidem?
-                Quas fugit tempore assumenda inventore quam delectus
-                quibusdam quos, omnis earum repudiandae quasi excepturi
-                numquam hic, totam maiores saepe molestiae ratione repellat.
-            </p>
-        </template>
-    </div>
-    <div>
-        <h3 onClick="showContent(3)">Como entro em contato com o suporte?</h3>
-        <template>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Ducimus consectetur fuga beatae dolorum quidem?
-                Quas fugit tempore assumenda inventore quam delectus
-                quibusdam quos, omnis earum repudiandae quasi excepturi
-                numquam hic, totam maiores saepe molestiae ratione repellat,
-                praesentium labore cumque eos voluptatem veritatis aspernatur?
-            </p>
-        </template>
+
+    <div class="container">
+
+        <h1>Perguntas frequentes</h1>
+
+        <div class="inside-container">
+            <img id='faq' src="images/faq.svg" alt="Frequently Asked Questions Image Representation">
+            <div class="questions">
+
+                <div class="content">
+                    <h3 onClick="showContent(0)">Como faço para redefinir minha senha?</h3>
+                    <img class='vector' src="images/vector.svg" alt="Vector" onClick="showContent(0)">
+                    <template>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ducimus consectetur fuga beatae dolorum quidem?
+                        </p>
+                    </template>
+                </div>
+                <div class="content">
+                    <h3 onClick="showContent(1)">Quais são os métodos de pagamento aceitos?</h3>
+                    <img class='vector' src="images/vector.svg" alt="Vector" onClick="showContent(1)">
+                    <template>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ducimus consectetur fuga beatae dolorum quidem?
+                            Quas fugit tempore assumenda inventore quam delectus
+                            quibusdam quos.
+                        </p>
+                    </template>
+                </div>
+                <div class="content">
+                    <h3 onClick="showContent(2)">Qual é a política de reembolso?</h3>
+                    <img class='vector' src="images/vector.svg" alt="Vector" onClick="showContent(2)">
+                    <template>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ducimus consectetur fuga beatae dolorum quidem?
+                            Quas fugit tempore assumenda inventore quam delectus
+                            quibusdam quos, omnis earum repudiandae quasi excepturi
+                            numquam hic, totam maiores saepe molestiae ratione repellat.
+                        </p>
+                    </template>
+                </div>
+                <div class="content">
+                    <h3 onClick="showContent(3)">Como entro em contato com o suporte?</h3>
+                    <img class='vector' src="images/vector.svg" alt="Vector" onClick="showContent(3)">
+                    <template>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Ducimus consectetur fuga beatae dolorum quidem?
+                            Quas fugit tempore assumenda inventore quam delectus
+                            quibusdam quos, omnis earum repudiandae quasi excepturi
+                            numquam hic, totam maiores saepe molestiae ratione repellat,
+                            praesentium labore cumque eos voluptatem veritatis aspernatur?
+                        </p>
+                    </template>
+                </div>
+            </div>
+        </div>
     </div>
 
 </body>

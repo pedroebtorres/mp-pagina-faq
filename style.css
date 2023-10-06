@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+:root {
+    background-color: lch(96 3.5 248 / 1);
+}
+
+
+h1{
+   text-align: center;
+}
+
+.container {
+    background-color: lch(100 0 0 / 1);
+    border-radius: 20px;
+    padding: 40px;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    margin: 25vh;
+}
+
+.content {
+    box-shadow: 0px 1px 0px lch(83 25 260), inset 3px 0px 0px lch(83 25 260);
+    border-radius: 20px 18px;
+    margin: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;      
+}
+
+.inside-container {
+    display: flex;
+    margin-top: 30px;
+    gap: 5em;
+}
+
+
+#faq {
+justify-self: center;
+align-self:center;
+position:static;
+margin-right: 20px;
+flex-grow: 1;
+}
+
+.questions {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    width: 100%;
+    flex-basis: 100%;
+}
+
+.question h3{
+    justify-content: flex-start;
+    align-items: flex-start;
+    
+}
+
+.vector {
+    width: 18.64px;
+    height: 1.5vh;
+    justify-self: flex-end;
+}
+
+@media (max-width: 1280px) {
+    .container{
+        width: 70%;
+        margin: 20vh;
+        padding: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .content{
+        padding: 6px;
+        margin: 6px;
+        border-radius: 15px 13px;
+        font-size:0.85em;
+    }
+    .questions{
+        padding: 2px;
+        margin: 4px;
+        width: 100%;
+    }
+    .vector{
+        width: 18px;
+    }
+    #faq{
+        flex-grow: 0;
+        width: 30%
+    }
+}
+
+@media (max-width: 750px) {
+    .container{
+        margin: 3vh;
+        width: 90%;
+        border-radius: 15px;
+    }
+    .inside-container {
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 70%;
+    }
+
+    .inside-container .questions {
+        align-self: stretch;
+    }
+
+    #faq{
+        justify-self: center;
+        align-self:center;
+        position: center;
+        flex-grow: 0;
+        width: 70%;
+    }
+    .questions{
+        padding: 2px;
+        margin: 2px;  
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        border-radius: 12px;
+        width: 100%;
+        flex-grow: 1;  
+    }
+    .content h1{
+        position: absolute;
+        top: 100%;
+    }
+    .content{
+        margin: 4px;
+        font-size: 0.8em;
+        width: 100%;
+        height: 100%;
+    }
+    .vector{
+        height: 15px;
+    }
+
+}
